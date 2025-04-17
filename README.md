@@ -19,7 +19,7 @@
   <br>
   <a href="https://github.com/p0unter/session_hijacking/issues">Bug Report</a>
   ·
-  <a href="">Team</a>
+  <a href="https://github.com/p0unter/session_hijacking?tab=readme-ov-file#team">Team</a>
   ·
   <a href="https://discord.gg/mepa8X7j6w">Support Us</a>
 </p>

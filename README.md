@@ -26,7 +26,7 @@
 
 ## License
 MIT License
-Copyright (c) 2025 Pounter & Malikoress <a href="https://github.com/p0unter/session_hijacking/blob/main/LICENSE">Examine License</a>
+Copyright (c) 2025 Pounter & Mal1koRe1ss <a href="https://github.com/p0unter/session_hijacking/blob/main/LICENSE">Examine License</a>
 
 ## Team
 <table>

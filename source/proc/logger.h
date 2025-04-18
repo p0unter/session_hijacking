@@ -2,10 +2,11 @@
 #define LOGGER_H
 
 #include <string>
+#include <vector>
 
 class logger {
 public:
-    void log_appdata_folders(const std::string& log_file);
+    std::vector<std::string> log_appdata_folders();
 };
 
-#endif // LOGGER_H
+#endif

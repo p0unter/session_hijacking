@@ -1,14 +1,10 @@
-#include <iostream>
+#include <windows.h>
 #include "logger.h"
 
-int main() {
-    /* Hiding Console */
-    HWND hwnd = GetConsoleWindow();
-    ShowWindow(hwnd, SW_HIDE);
-
+// For Hiding Console 
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {
     logger log;
     log.log_appdata_folders("appdata_folders.log");
 
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

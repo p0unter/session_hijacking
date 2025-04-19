@@ -1,0 +1,10 @@
+^C:\USERS\WINNER\DESKTOP\CPP\SESSION_HIJACKING\SOURCE\BUILD\CMAKEFILES\B3344CF03E865B49E042D5CF018F4024\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Winner/Desktop/Cpp/session_hijacking/source -BC:/Users/Winner/Desktop/Cpp/session_hijacking/source/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Winner/Desktop/Cpp/session_hijacking/source/build/SHijacking.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
